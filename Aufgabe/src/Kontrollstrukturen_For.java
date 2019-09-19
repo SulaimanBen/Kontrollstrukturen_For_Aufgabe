@@ -9,6 +9,7 @@ public class Kontrollstrukturen_For {
 		Englischen_Kleinbuchstaben();
 		Englischen_Grossbuchstaben();
 		Rest();
+		method3();
 		
 	}
 
@@ -46,9 +47,8 @@ public class Kontrollstrukturen_For {
 	
 	static void Englischen_Kleinbuchstaben() {
 		
-		String buchstaben="abcdefghijklmnopqrstuvwxyz";
-		for(int x=0;x<buchstaben.length();x++)
-			System.out.print(buchstaben.charAt(x)+" ");
+		for(char c='a';c<='z';c++)
+			System.out.print(c+" ");
 		System.out.print("\n");
 			
 	}
@@ -57,9 +57,8 @@ public class Kontrollstrukturen_For {
 	
 	static void Englischen_Grossbuchstaben() {
 		
-		String Buchstaben="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		for(int x=Buchstaben.length()-1;x>=0;x--)
-			System.out.print(Buchstaben.charAt(x)+" ");
+		for(char c='Z';c>='A';c--)
+			System.out.print(c+" ");
 		System.out.print("\n");
 	}
 	
@@ -69,18 +68,20 @@ public class Kontrollstrukturen_For {
 		for(int x=1; x<=100 ;x++) 
 			if(x%5 == 0)
 			System.out.print(x+" ");
+		System.out.println();
 	}
 	
 	  //Folgende Zahlenreihe bitte in einer Zeile ausgeben: 3 1 2 3 2 1 2 1 1
 	
-	/*static void method3() {
+	static void method3() {
 		
-		for(int x=9; x>0 ; x--) {
-			for(int y=3; y>0 ;y--)
-				System.out.print();
-				
+		for (int i = 3; i > 0; i--) {
+			System.out.print("|"+i+" ");
+			for (int j = 1; j < i+1; j++) {
+				System.out.print(j+" ");
+			}
 		}
 		
-	}*/
+	}
 
 }

@@ -14,7 +14,7 @@ public class Ampelfarben {
 		
 		switch(farbe) {
 		
-		case "Grün": System.out.println("Weg frei");break;
+		case "GrÃ¼n": System.out.println("Weg frei");break;
 		case "Gelb": System.out.println("Gleich get es los");break;
 		case "Rot":  System.out.println("Bitte warten");break;
 		default: System.out.println("Fehler! Diese Farbe gibt es nicht.");break;
@@ -26,7 +26,7 @@ public class Ampelfarben {
 		
 		if(farbe2 == "Rot") 
 			System.out.println("Bitte warten");
-		else if(farbe2 == "Grün") 
+		else if(farbe2 == "GrÃ¼n") 
 			System.out.println("Weg frei");
 		else if(farbe2 == "Gelb") 
 			System.out.println("Gleich get es los");
