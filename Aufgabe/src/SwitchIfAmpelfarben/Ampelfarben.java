@@ -24,11 +24,11 @@ public class Ampelfarben {
 		
 		String farbe2= JOptionPane.showInputDialog("Farbe 2 Eingeben:");
 		
-		if(farbe2 == "Rot") 
+		if(farbe2.contentEquals("Rot")) 
 			System.out.println("Bitte warten");
-		else if(farbe2 == "Grün") 
+		else if(farbe2.contentEquals("Grün")) 
 			System.out.println("Weg frei");
-		else if(farbe2 == "Gelb") 
+		else if(farbe2.contentEquals("Gelb")) 
 			System.out.println("Gleich get es los");
 		else 
 			System.out.println("Fehler! Diese Farbe gibt es nicht.");
