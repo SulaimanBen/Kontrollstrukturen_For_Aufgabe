@@ -114,7 +114,7 @@ public class AufgabeKontrollstrukturen {
 	
 	static void monaten(int mon) {
 		
-		for(int monat=mon; monat <= 12 && monat>0; monat++) {
+		for(int monat=mon; monat <= 12 && monat>0; ) {
 			
 			switch(monat) {
 			

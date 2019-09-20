@@ -6,7 +6,7 @@ public class SwitchBuchstaben {
 	public static void main(String[] args) {
 		
     
-		//Kchar();
+		Kchar();
 		meth2();
 		
 	}

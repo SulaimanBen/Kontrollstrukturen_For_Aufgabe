@@ -1,10 +1,9 @@
 package SwitchIfAmpelfarben;
 
-import java.util.Scanner;
-
 import javax.swing.JOptionPane;
 
 public class Ampelfarben {
+	
 	
 	public static void main(String[] args) {
 		
@@ -21,6 +20,7 @@ public class Ampelfarben {
 		}
 		
 		// if / else if / else
+		
 		
 		String farbe2= JOptionPane.showInputDialog("Farbe 2 Eingeben:");
 		
