@@ -44,7 +44,7 @@ public class SwitchBuchstaben {
         
 		static void meth2() {
 	        
-	        for( char ch='ß';ch<='z'; ch++ )
+	        for( char ch='a';ch<='z'; ch++ )
 	        	Kchar();
 	        	
 		}
